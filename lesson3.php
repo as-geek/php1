@@ -163,3 +163,16 @@
 	echo $string . ' => ' . $strResultUrl;
 	echo '<hr>';
 
+	//Задание 10
+	for ($i = 0, $z = 0; $i <= 3; $i++) {
+		echo $z++ . ' ';
+		for ($j = 1; $j <= 3; $j++) {
+			$factor = ($i == 0) ? 1 : $i;
+			echo ($factor * $j) . ' ';
+		}
+		echo "<br>";
+	}
+	
+
+
+
